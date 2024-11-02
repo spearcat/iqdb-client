@@ -11,7 +11,7 @@
         "noImplicitReturns": false,
         "noImplicitThis": true,
         "resolveJsonModule": true,
-        "moduleResolution": "node",
+        "moduleResolution": "NodeNext",
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "noUnusedLocals": true,

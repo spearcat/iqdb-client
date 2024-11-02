@@ -1,5 +1,5 @@
-import { Size } from "./api"
-import { IQDB_RESULT_TYPE } from "./h"
+import { Size } from "./api.js"
+import { IQDB_RESULT_TYPE } from "./h.js"
 
 export function parseSimilarity(txt: string): number | null {
     const result = txt.match(/(-?\d+\.?\d*)(%?)/)

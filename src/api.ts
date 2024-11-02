@@ -1,6 +1,6 @@
-import { parseSimilarity, parseSizeAndType, getRandomName, asyncIterableToArray } from "./util"
+import { parseSimilarity, parseSizeAndType, getRandomName, asyncIterableToArray } from "./util.js"
 import { load } from 'cheerio'
-import { IQDB_SEARCH_OPTIONS_ALL, IQDBClientConfig, IQDBLibs_2D, IQDBLibs_3D, IQDB_RESULT_TYPE } from "./h"
+import { IQDB_SEARCH_OPTIONS_ALL, IQDBClientConfig, IQDBLibs_2D, IQDBLibs_3D, IQDB_RESULT_TYPE } from "./h.js"
 import { Readable } from 'stream'
 export interface Size {
     width: number

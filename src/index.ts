@@ -5,6 +5,6 @@
  * @author KotoriK
  * @license MIT
  */
-export * from './h'
-import searchPic, { IQDBSearchResultItem, Size, makeSearchFunc, defaultConfig } from './api'
-export { searchPic, IQDBSearchResultItem, Size, makeSearchFunc, defaultConfig }
+export * from './h.js'
+import searchPic, { type IQDBSearchResultItem, type Size, makeSearchFunc, defaultConfig } from './api.js'
+export { searchPic, type IQDBSearchResultItem, type Size, makeSearchFunc, defaultConfig }
